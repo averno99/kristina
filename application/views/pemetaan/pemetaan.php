@@ -1,7 +1,7 @@
 <!-- end page title end breadcrumb -->
 
 <div class="col-lg-12 col-sm-12">
-    <div class="card m-b-30">
+    <div class="card m-b-30 col-12">
         <div class="card-body">
 
             <div class="dropdown-divider mb-3"></div>
@@ -26,4 +26,5 @@
             <div id="map"></div>
         </div>
     </div>
+
 </div>

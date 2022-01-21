@@ -45,7 +45,7 @@
                                         <td style="text-align: center;">
                                             <a href="" class="badge badge-success" data-toggle="modal" data-target="#editModal<?php echo $du['id']; ?>"><i class="fa fa-edit"></i></a>
                                             <?php if ($du['role'] != 'Admin') : ?>
-                                                <a href="" class="badge badge-danger" data-toggle="modal" data-target="#hapusModal<?php echo $du['id']; ?>"><i class="fa fa-trash"></a>
+                                                <a href="" class="badge badge-danger" data-toggle="modal" data-target="#hapusModal<?php echo $du['id']; ?>"><i class="fa fa-trash"></i></a>
                                             <?php endif; ?>
                                         </td>
                                     </tr>

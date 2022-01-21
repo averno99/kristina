@@ -34,7 +34,6 @@ class Pemetaan extends CI_Controller
         $this->load->view('templates/header', $data);
         $this->load->view('templates/sidebar');
         $this->load->view('pemetaan/pemetaan', $data);
-        $this->load->view('pegawai/pemetaan', $data);
         // $this->load->view('frontend/pemetaan/map', $data);
         $this->load->view('templates/footer', $data);
     }

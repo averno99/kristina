@@ -77,9 +77,14 @@
 
 
                     </td>
-                    <td onclick="javascript: return  confirm('Anda Yakin Hapus?') "><?php echo anchor('maksimum/hapus_data/' . $maks['id'], '<div class=" btn btn-danger btn-sm"><i class="fa fa-trash"></i></div>') ?>
+                    <td>
 
-                        <?php echo anchor('maksimum/edit_data/' . $maks['id'], '<div class=" btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>') ?>
+
+
+                        <a onclick="javascript: return  confirm('Anda Yakin Hapus?')" <?php echo anchor('maksimum/hapus_data/' . $maks['id'], '<div class=" btn btn-danger btn-sm"> <i class="fa fa-trash"> </i> </div>') ?></a>
+
+
+                            <a href="<?php echo base_url('maksimum/edit_data/' . $maks['id']) ?>" class=" btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
 
                     </td>
                 </tr>

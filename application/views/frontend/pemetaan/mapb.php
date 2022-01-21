@@ -1,6 +1,6 @@
 <!-- end page title end breadcrumb -->
 
-<div class="col-lg-12 col-sm-12">
+<div class="col-12">
     <div class="card m-b-30">
         <div class="card-body mt-5">
 
